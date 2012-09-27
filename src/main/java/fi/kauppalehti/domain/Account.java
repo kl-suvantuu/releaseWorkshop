@@ -8,6 +8,7 @@ public class Account {
 	private final Long id;	
 	
 	public Account() {
+		System.out.println("hei");
 		this.id = idSequence.getAndIncrement();
 	}
 	
